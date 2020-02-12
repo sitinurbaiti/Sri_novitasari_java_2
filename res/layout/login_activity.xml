@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/ic_launcher"
+    android:orientation="vertical" >
+
+      <TextView
+        android:id="@+id/data_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Login Aplikasi"
+        android:textSize="30dp"  />
+    
+
+ 
+ <EditText
+ android:layout_height="wrap_content"
+ android:layout_width="fill_parent"
+ android:id="@+id/username"
+ android:singleLine="true"
+ android:hint="Username"
+ ></EditText>
+ 
+ 
+
+ 
+ <EditText
+ android:layout_height="wrap_content"
+ android:id="@+id/passwd_input"
+ android:password="true" android:layout_width="fill_parent"
+ android:hint="Password">
+ </EditText>
+ 
+ <Button
+     android:id="@+id/masuk"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text="Masuk" >
+ 
+ </Button>
+ <TextView
+ android:id="@+id/TextView01"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"></TextView>
+    
+</LinearLayout>
